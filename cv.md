@@ -29,6 +29,7 @@
 ```javascript
 function repeatStr (n, s) {
   let a ="";
+  let b = "";
   for(let i = 0 ; i < n;i++){
     a +=s;
   }
