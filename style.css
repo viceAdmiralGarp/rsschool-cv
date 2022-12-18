@@ -1,1 +1,50 @@
-body{}
+html {
+    background-color: #1e1e1e;
+    color: aliceblue;
+}
+
+.cv-heading {
+    text-align: center;
+}
+
+.cv-content {
+    margin: auto;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.cv-header {
+    display: flex;
+}
+.header-info li, .header-contacts li{
+    display: inline;
+    padding-right: 20px;
+}
+
+.footer-links ul li {
+    display: inline;
+    padding-right: 50px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.git-logo {
+    width: 100px; height:auto;
+}
+
+.my-photo {
+    width: 100px; height:auto;
+    padding-left: 300px;
+    padding: 0 0 10px 400px;
+}
+
+
+a {
+    color: #5092f9;
+    list-style: none;
+    text-decoration: none;
+}
