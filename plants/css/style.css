@@ -33,6 +33,7 @@ body{
   font-size: 16px;
   font-weight: normal;
   color: #636060;
+  background: #EDF2EC;
 }
 
 .header{
@@ -43,7 +44,6 @@ body{
   height: 134;
   left: 0px;
   top: 0px; 
-  background: #EDF2EC;
 }
 
 .wrapper{
@@ -84,5 +84,5 @@ text-decoration: none;
 }
 
 .header__link:hover, .header__link:focus, .header__link:active{
-  opacity: .150;
+  color: #E06733;
 }
