@@ -28,8 +28,6 @@
 }
 
 body{
-
-
   background: #EDF2EC;
 }
 
@@ -125,8 +123,75 @@ ul{
   color: #636060;
 }
 
+.learnMore{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
 
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.border{
+  max-width: 158px;
+  height: 44px;
+  background-color:  #E06733;
+}
 /* Welcome section end */
+
+
+
+/* About section start*/
+
+.main__about{
+  background-color: white;
+}
+.about-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 666px;
+  
+}
+
+.about-us-section{
+  height: 350px;
+  width: 605px;
+  margin-top: 161px;
+  background-color: white;
+}
+
+.houseplant-pic{
+  margin-top: 93px;
+}
+
+.prof-garden{
+  font-family: 'Inika';
+  font-style: normal; 
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  max-width: 463px;
+  height: 102px;
+}
+
+.sub-prof-garden{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+  max-width: 605px;
+  height: 208px;
+}
+/* About section end*/
 
 
 
