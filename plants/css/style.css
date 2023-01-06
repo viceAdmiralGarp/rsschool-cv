@@ -28,11 +28,8 @@
 }
 
 body{
-  font-family: 'Inter';
-  font-style: normal;
-  font-size: 16px;
-  font-weight: normal;
-  color: #636060;
+
+
   background: #EDF2EC;
 }
 
@@ -49,14 +46,16 @@ body{
 .wrapper{
   max-width: 1220px;
   margin: 0 auto;
+  
 }
 
+/* Header styles start */
 .header__wrapper{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 42px;
+  padding-top: 18px;
 }
 
 .header__list{
@@ -77,12 +76,57 @@ ul{
 }
 
 .header__link{
-font-size: 16px;
-line-height: 50px;
-color: #010201;
-text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  color: #010201;
+  text-decoration: none;
 }
 
 .header__link:hover, .header__link:focus, .header__link:active{
   color: #E06733;
 }
+/* Header styles end */
+
+/* Main start */
+/* Welcome section start  */
+
+.welcome-block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 62px;
+}
+
+.leafs-pic{
+  margin-top: 12.5px;
+}
+
+.title-block{
+  margin-top: 31px;
+  
+}
+
+.welcome-title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 45px;
+  max-width: 549px;
+  margin-bottom: 42px;
+  color: #717171;
+}
+
+.welcome-subtitle{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 20px;
+  max-width: 549px;
+  margin-bottom: 48px;
+  color: #636060;
+}
+
+
+/* Welcome section end */
+
+
+
