@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=".\css\style.css">
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     <title>Plants</title>
 </head>
 <body>
@@ -48,7 +50,7 @@
                         <img src=".\img\svg\leafs\leafs.svg" alt="leafs-pic"> 
                     </div>
                     <div class = "title-block">
-                        <h1 class = "welcome-title">We grow plants and give you oxygen</h1>
+                        <h1 class = "welcome-title">We grow <span class="green-color">plants</span> and give you oxygen</h1>
                         <p class ="welcome-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         <div class="border"> 
                             <a href="#!" class ="learnMore">LEARN MORE</a>
@@ -64,7 +66,7 @@
             <div class="wrapper">
                 <div class="about-wrap">
                     <div class="about-us-section">
-                        <h2 class="prof-garden">We are professional experienced gardeners</h2>
+                        <h2 class="prof-garden">We are <span class ="orange-color">professional experienced </span>gardeners</h2>
                         <p class="sub-prof-garden">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
                     </div>
                     <div class="houseplant-pic">
@@ -75,24 +77,38 @@
         </section>
 
         <section class="service">
-                <div class="wrapper">
-                    <div class="service__wrapper">
-                        <h2 class="service__intro">Service and our projects</h2>
-                        <nav class="service__nav">
-                            <ul class="service__list">
-                                <li class="service__item">
-                                    <a href="#!" class="service__link"> Gardens</a>
-                                </li>
-                                <li class="service__item">
-                                    <a href="#!" class="service__link">Lawn</a>
-                                </li>
-                                <li class="service__item">
-                                    <a href="#!" class="service__link">Planting</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+            <div class="wrapper">
+                <div class="service__wrapper">
+                    <h2 class="intro">Service and our projects</h2>
+                    <nav class="service__nav">    
+                        <ul class="service__list">
+                            <li class="nav__item">
+                                <a href="#!" class="service__link">Gardens</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="service__link">Lawn</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="service__link">Planting</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
+                
+                <div class="services">
+                    <ul class ="services_list">
+                        <li class="first-row">
+                            <img src=".\img\svg\service\first.svg" alt="first-pic">
+                        </li>
+                        <li class="first-row">
+                            <img src=".\img\svg\service\second.svg" alt="second-pic">
+                        </li>
+                        <li class="first-row">
+                            <img src=".\img\svg\service\third.svg" alt="third-pic">
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
     <footer></footer>
