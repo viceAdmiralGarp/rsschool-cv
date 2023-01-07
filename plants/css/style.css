@@ -47,6 +47,8 @@ body{
   
 }
 
+
+
 /* Header styles start */
 .header__wrapper{
   display: flex;
@@ -84,6 +86,8 @@ ul{
   color: #E06733;
 }
 /* Header styles end */
+
+
 
 /* Main start */
 /* Welcome section start  */
@@ -192,6 +196,29 @@ color: #000000;
   height: 208px;
 }
 /* About section end*/
+
+
+
+/* Service section start*/
+.service{
+  height: 1300px;
+}
+
+
+.service-intro{
+  margin-top: 40px;
+  max: 94px;
+  max-width: 306px;
+
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+
+  color: #499A18;
+}
+/* Service section end*/
 
 
 
