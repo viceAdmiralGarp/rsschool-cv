@@ -1,0 +1,581 @@
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/*
+inter-900 - latin
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('../fonts/inter-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      
+
+
+/* inika-regular - latin */
+@font-face {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+body{
+  background: #EDF2EC;
+}
+
+.header{
+  font-family: 'Inika';
+  font-style: normal;
+  font-size: 16px;
+  width: 100%;
+  height: 134;
+  left: 0px;
+  top: 0px; 
+}
+
+.wrapper{
+  max-width: 1222px;
+  margin: 0 auto;
+}
+
+
+
+/* Header styles start */
+.header__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+
+.header__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item{
+  margin-right: 46px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.header__item:last-child{
+  margin-right: 0;
+}
+
+.header__link{
+  font-size: 16px;
+  line-height: 50px;
+  color: #010201;
+  text-decoration: none;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active{
+  color: #E06733;
+}
+/* Header styles end */
+
+
+
+/* Main start */
+/* Welcome section start  */
+
+.welcome-block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 62px;
+}
+
+.leafs-pic{
+  margin-top: 12.5px;
+}
+
+.title-block{
+  margin-top: 31px;
+  
+}
+
+.green-color{
+  color: #499A18;
+}
+
+.orange-color{
+  color: #E06733;
+}
+
+.welcome-title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 45px;
+  max-width: 549px;
+  margin-bottom: 42px;
+  color: #717171;
+}
+
+.welcome-subtitle{
+  font-family: 'Inter';
+  font-style: normal; 
+  font-size: 20px;
+  max-width: 549px;
+  margin-bottom: 48px;
+  color: #636060;
+}
+
+.learnMore{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  text-decoration: none;
+  margin-top: 14px;
+}
+
+.learnMore:hover, .learnMore:focus, .learnMore:active{
+  color: #E06733;
+}
+
+.border{
+  max-width: 158px;
+  height: 44px;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+}
+/* Welcome section end */
+
+
+
+/* About section start*/
+
+.main__about{
+  background-color: white;
+}
+.about-wrap{
+  display: flex;
+  
+  justify-content: space-between;
+  height: 666px;
+}
+
+.about-us-section{
+  height: 350px;
+  width: 605px;
+  margin-top: 161px;
+  background-color: white;
+}
+
+.houseplant-pic{
+  margin-top: 93px;
+}
+
+.prof-garden{
+  font-family: 'Inika';
+  font-style: normal; 
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  max-width: 463px;
+  height: 102px;
+}
+
+.sub-prof-garden{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+  max-width: 605px;
+  height: 208px;
+}
+/* About section end*/
+
+
+
+/* Service section start*/
+.service{
+  height: 1300px;
+}
+
+.service__wrapper{
+  margin-top: 40px;
+  max-width: 1007px;
+  height: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.intro{
+  max-height: 94px;
+  max-width: 306px;
+
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+
+  color: #499A18;
+}
+
+.service__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav__item{
+  margin-top: 19px;
+  display: flex;
+  margin-right: 38px;
+  
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  width: 161px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.service__link{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  
+  color: #E06733;
+
+  text-decoration: none;
+}
+
+.services__listFirstRow{
+  display:flex;
+  
+}
+
+.first-row{
+  margin-right: 117px;
+}
+
+.bottomBlock-pic{
+  width: 330px;
+  height: 100px;
+  margin: 0px;
+ 
+  border: 1px solid #E3E1D5;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.intro-bottomBlock{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+text-align: center;
+
+color: #E06733;
+}
+
+.subIntro-bottomBlock{
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  color: #717171;
+
+}
+
+.services__listSecondRow{
+  display: flex;
+}
+
+.second-row{
+  margin-right: 117px;
+}
+/* Service section end*/
+
+
+
+/* Price section start*/
+.price{
+  height: 560px;
+  padding-top: 40px;
+  background-color: #FFFFFF;;
+}
+
+.price-wrapper{
+  height: 405px;
+  max-width: 1222px;
+
+}
+
+.price-category{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  
+  color: #000000;
+
+  width: 332px;
+  height: 391px;
+  
+}
+
+.subPriceIntro{
+  max-width: 452px;
+  height: 405px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  
+
+  text-align: right;
+
+  color: #000000;
+}
+
+.flexForPriceAndCategory{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact{
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #E06733;
+
+}
+
+.borderContact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 38px;
+  margin-left: 290px;
+
+  box-sizing: border-box;
+
+  width: 162px;
+  height: 50px;
+
+  border: 1px solid #E06733;
+  border-radius: 5px; 
+}
+
+.contact{
+  text-decoration: none;
+}
+
+.price__item{
+  margin-top: 60px;
+  width: 332px;
+  height: 282.01px; 
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+}
+
+.listCategory{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 250px;
+  height: 50px;
+  background: #EDF2EC;
+  border-radius: 20px;
+  margin-bottom: 32px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.ellipse{
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #D9D9D9;
+}
+
+.leafs-pic{
+ margin-top: 39px;
+}
+/* .vector{
+width: 2px;
+height: 2px;
+
+border: 1px solid #717171;
+transform: matrix(-0.1, -1, 1, -0.1, 0, 0);
+} */
+
+/* Price section end*/
+
+
+
+/* Contacts section start*/
+.contacts{
+  max-height: 550px;
+  padding-top: 53px;
+}
+
+.contacts__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__contact{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  color: #499A18;
+}
+
+.rectangle_city{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-top: 95px;
+  height: 50px;
+  width: 450px;
+  background: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+}
+
+.city{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width: 204px;
+  height: 40px; 
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+
+  letter-spacing: 0.05em;
+
+  color: #717171; 
+}
+
+.ellipseContact{
+  display: flex;
+  align-items: center;
+
+  margin-right: 41px;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #AEA1A1;
+}
+/* Contacts section end*/
+
+
+
+/* Footer section start*/
+footer{
+  height: 140px;
+  background-color: #FFFFFF;
+  
+}
+
+.data{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+/* identical to box height, or 250% */
+
+text-decoration: none;
+
+color: #000000;
+}
+
+.footer__wrapper{
+  padding-top: 40px;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.school-name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  /* identical to box height, or 250% */
+
+  text-decoration: none;
+  
+  color: #000000;
+}
+
+.soc{
+  height: 50px;
+  width: 188px;
+}
+
+.soc__list{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* Footer section end*/
