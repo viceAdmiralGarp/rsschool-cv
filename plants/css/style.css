@@ -356,8 +356,8 @@ color: #E06733;
 
 .subPriceIntro{
   max-width: 452px;
-  height: 191px;
-
+  height: 405px;
+  
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -411,7 +411,156 @@ color: #E06733;
   text-decoration: none;
 }
 
+.price__item{
+  margin-top: 60px;
+  width: 332px;
+  height: 282.01px; 
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+}
 
+.listCategory{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 250px;
+  height: 50px;
+  background: #EDF2EC;
+  border-radius: 20px;
+  margin-bottom: 32px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.ellipse{
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #D9D9D9;
+}
+
+.leafs-pic{
+ margin-top: 39px;
+}
+/* .vector{
+width: 2px;
+height: 2px;
+
+border: 1px solid #717171;
+transform: matrix(-0.1, -1, 1, -0.1, 0, 0);
+} */
 
 /* Price section end*/
 
+
+
+/* Contacts section start*/
+.contacts{
+  max-height: 550px;
+  padding-top: 53px;
+}
+
+.contacts__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__contact{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  color: #499A18;
+}
+
+.rectangle_city{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-top: 95px;
+  height: 50px;
+  width: 450px;
+  background: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+}
+
+.city{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width: 204px;
+  height: 40px; 
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+
+  letter-spacing: 0.05em;
+
+  color: #717171; 
+}
+
+.ellipseContact{
+  display: flex;
+  align-items: center;
+
+  margin-right: 41px;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #AEA1A1;
+}
+/* Contacts section end*/
+
+
+
+/* Footer section start*/
+footer{
+  height: 140px;
+  background-color: #FFFFFF;
+  
+}
+
+.data{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+/* identical to box height, or 250% */
+
+color: #000000;
+}
+
+.footer__wrapper{
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.school-name{
+ 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  /* identical to box height, or 250% */
+  
+  color: #000000;
+}
+
+
+/* Footer section end*/
