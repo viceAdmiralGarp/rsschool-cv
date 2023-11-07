@@ -30,3 +30,26 @@ I'm always eager to expand my horizons and make meaningful contributions to the 
 * JDBC
 
 ***
+## Code example:
+
+This revised code utilizes ternary operators to 
+condense the conditional checks for the factorial calculation, 
+making the code more compact and concise.
+```
+public class Factorial {
+    public static void main(String[] args) {
+        int number = 5; // Change this number to find factorial
+        long result = calculateFactorial(number);
+        System.out.println("Factorial of " + number + " = " + result);
+    }
+
+    public static long calculateFactorial(int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        } else {
+            return n * calculateFactorial(n - 1);
+        }
+    }
+}
+```
+***
