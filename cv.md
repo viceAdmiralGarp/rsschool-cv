@@ -79,3 +79,7 @@ Web Development
 
 Database Management Systems
 ***
+## Languages:
+* English-B1
+* Ukrainian - native
+* Russian - native
