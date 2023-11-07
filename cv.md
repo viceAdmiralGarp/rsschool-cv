@@ -61,3 +61,21 @@ Utilized version control tools like Git for collaborative project work.
 Worked on optimizing and enhancing the performance of existing code.
 Familiarized with Agile development principles, participating in daily stand-ups and discussions.
 ***
+## Education:
+**Bachelor of Science in Computer Science**
+
+University of Tech, City, Country
+September 2017 - May 2021
+
+**Relevant coursework:**
+
+Data Structures and Algorithms
+
+Object-Oriented Programming
+
+Software Engineering Principles
+
+Web Development
+
+Database Management Systems
+***
