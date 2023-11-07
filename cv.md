@@ -53,3 +53,11 @@ public class Factorial {
 }
 ```
 ***
+## Work Experience:
+
+Developed and tested software under the guidance of experienced developers.
+Contributed to team projects involving Java and Angular-based web application development.
+Utilized version control tools like Git for collaborative project work.
+Worked on optimizing and enhancing the performance of existing code.
+Familiarized with Agile development principles, participating in daily stand-ups and discussions.
+***
