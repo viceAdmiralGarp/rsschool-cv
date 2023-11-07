@@ -5,5 +5,5 @@
 
 **E-mail:** leonidBikov77@gmail.com
 
-**Telegram** @PavelDurouuu
+**Telegram:** @PavelDurouuu
 ***
