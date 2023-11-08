@@ -23,6 +23,7 @@ I'm always eager to expand my horizons and make meaningful contributions to the 
 ***
 
 ## Skills and Proficiency:
+
 * HTML5/CSS3
 * JS(Basic)
 * Java (Core)
@@ -30,11 +31,13 @@ I'm always eager to expand my horizons and make meaningful contributions to the 
 * JDBC
 
 ***
+
 ## Code example:
 
-This revised code utilizes ternary operators to 
-condense the conditional checks for the factorial calculation, 
+This revised code utilizes ternary operators to
+condense the conditional checks for the factorial calculation,
 making the code more compact and concise.
+
 ```
 public class Factorial {
     public static void main(String[] args) {
@@ -52,7 +55,9 @@ public class Factorial {
     }
 }
 ```
+
 ***
+
 ## Work Experience:
 
 Developed and tested software under the guidance of experienced developers.
@@ -61,7 +66,9 @@ Utilized version control tools like Git for collaborative project work.
 Worked on optimizing and enhancing the performance of existing code.
 Familiarized with Agile development principles, participating in daily stand-ups and discussions.
 ***
+
 ## Education:
+
 **Bachelor of Science in Computer Science**
 
 University of Tech, City, Country
@@ -79,7 +86,9 @@ Web Development
 
 Database Management Systems
 ***
+
 ## Languages:
+
 * English-B1
 * Ukrainian - native
 * Russian - native
